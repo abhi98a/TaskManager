@@ -3,16 +3,14 @@ package com.backend.todo_withdb.tasks;
 import com.backend.todo_withdb.common.BaseEntity;
 import com.backend.todo_withdb.notes.NotesEntity;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
 import java.util.List;
 
 @Entity(name ="tasks")
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
